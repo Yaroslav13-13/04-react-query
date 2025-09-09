@@ -40,6 +40,9 @@ body {
   justify-content: center;
   align-items: start;
   margin-top: 40px;
+  cursor: default;
+  background: linear-gradient(135deg, #1e293b, #0a1a2a);
+  color: #e2e8f0; /* щоб текст був читабельний на темному фоні */
 }
 
 h1 {

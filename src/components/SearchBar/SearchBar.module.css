@@ -54,6 +54,7 @@
   border-color: #0a66c2;
   background: #fff;
   box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
+  outline: none;
 }
 
 .button {
