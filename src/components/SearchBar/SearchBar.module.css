@@ -1,9 +1,9 @@
 .header {
   padding: 16px 24px;
   background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #0a66c2;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -54,7 +54,6 @@
   border-color: #0a66c2;
   background: #fff;
   box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
-  outline: none;
 }
 
 .button {
