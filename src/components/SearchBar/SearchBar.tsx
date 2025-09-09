@@ -69,7 +69,7 @@ export default function SearchBar({ onSubmit }: SearchBarProps) {
 
   useEffect(() => {
     const currentOption = placeholderOptions[optionIndex];
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setTimeout>;
 
     if (typing) {
       if (charIndex < currentOption.length) {
