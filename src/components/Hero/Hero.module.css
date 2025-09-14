@@ -1,0 +1,79 @@
+.hero {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e2e8f0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Анімація fade-in */
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 16px;
+  /* Можна додати окрему анімацію появи overlay */
+  transform: translateY(20px);
+  animation: slideUp 0.8s forwards 0.2s;
+  opacity: 0;
+}
+
+@keyframes slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.title {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.searchContainer input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  font-family: inherit;
+}
+
+.searchContainer button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.searchContainer button:hover {
+  border-color: #646cff;
+}

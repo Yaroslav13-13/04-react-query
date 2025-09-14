@@ -48,3 +48,10 @@ export async function fetchMovies(
 export function getImageUrl(path: string | null, size = "w500") {
   return path ? `https://image.tmdb.org/t/p/${size}${path}` : "";
 }
+export async function fetchPopularMovies(): Promise<Movie[]> {
+  const response: AxiosResponse<{ results: Movie[] }> = await axiosInstance.get(
+    "/movie/popular",
+    { params: { language: "en-US", page: 1 } }
+  );
+  return response.data.results;
+}
