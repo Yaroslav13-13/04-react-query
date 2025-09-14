@@ -3,7 +3,6 @@
   background: #ffffff;
   border-bottom: 1px solid #0a66c2;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-  /* margin-bottom: 24px; */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -42,7 +41,7 @@
   padding: 12px 14px;
   font-size: 15px;
   border: 1px solid #d1d5db;
-  border-radius: 9999px; /* сучасний pill-стиль */
+  border-radius: 9999px;
   width: 260px;
   background: #f9fafb;
   transition: all 0.2s ease;
