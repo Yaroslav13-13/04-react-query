@@ -9,7 +9,9 @@
   background-position: center;
   background-repeat: no-repeat;
 
-  /* Анімація fade-in */
+  width: 1440px;
+  border-radius: 20px;
+
   opacity: 0;
   animation: fadeIn 1s forwards;
 }
@@ -21,11 +23,12 @@
 }
 
 .overlay {
+  width: 50%;
   background: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   text-align: center;
   border-radius: 16px;
-  /* Можна додати окрему анімацію появи overlay */
+
   transform: translateY(20px);
   animation: slideUp 0.8s forwards 0.2s;
   opacity: 0;
