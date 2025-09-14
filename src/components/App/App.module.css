@@ -9,6 +9,9 @@
   margin: 16px 0;
   list-style: none;
   padding: 0;
+
+  background-color: #fff;
+  color: #fff;
 }
 
 .pagination li {
@@ -29,6 +32,9 @@
 
 .active {
   background-color: #0a66c2;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+}
+
+.pagination:hover {
 }
