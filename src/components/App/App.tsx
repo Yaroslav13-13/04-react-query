@@ -6,7 +6,7 @@ import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import MovieModal from "../MovieModal/MovieModal";
 import ReactPaginateComponent from "../ReactPaginate/ReactPaginate";
-// import type { Movie } from "../../types/movie";
+import type { Movie } from "../../types/movie";
 import { fetchMovies } from "../../services/movieService";
 import { Toaster, toast } from "react-hot-toast";
 import styles from "./App.module.css";
